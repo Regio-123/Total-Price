@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Total_Harga</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="struk">
+        ------------------------Struk------------------------ <br />
+        ---Nama---
+        <br />`
+        <div class="row-struk">
+          <div class="row-struk-item">
+            <div class="kiriGroup"></div>
+            <div class="kananGroup"></div>
+          </div>
+        </div>
+        <div class="total-struk">
+          <span id="totalSemua"></span>
+        </div>
+      </div>
+      <div class="isi-input">
+        <span>Nama Barang</span>
+        <input type="text" id="nama" />
+        <span>Harga Barang</span>
+        <input type="number" id="harga" />
+        <span>Jumlah Barang</span>
+        <input type="number" id="jumlah" />
+        <button onclick="Hasil()" class="hasil">Hasil</button>
+        <button onclick="Kembali()" class="kembali">Kembali</button>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
